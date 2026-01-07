@@ -3,5 +3,8 @@ package com.gwaze.memo.dto;
 import lombok.Getter;
 
 @Getter
-public class MemoCreateResponse {
+public class MemoCreateRequest {
+
+    private String text;
+    private Long memberId;
 }

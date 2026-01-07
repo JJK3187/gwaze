@@ -1,4 +1,7 @@
 package com.gwaze.memo.repository;
 
-public interface MemoRepository {
+import com.gwaze.memo.entity.Memo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MemoRepository extends JpaRepository<Memo, Long> {
 }
